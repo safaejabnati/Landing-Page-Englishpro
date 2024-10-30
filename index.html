@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishPro - Corso di Inglese Online</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-10">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-blue-600">EnglishPro</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-blue-600">Home</a>
+                    <a href="#corso" class="text-gray-600 hover:text-blue-600">Il Corso</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600">Recensioni</a>
+                    <a href="#blog" class="text-gray-600 hover:text-blue-600">Blog</a>
+                    <a href="#contatti" class="text-gray-600 hover:text-blue-600">Contatti</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 bg-gradient-to-r from-blue-600 to-blue-400">
+        <div class="container mx-auto px-6 py-16 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">
+                Impara l'inglese con i migliori insegnanti madrelingua
+            </h1>
+            <p class="text-xl text-white mb-8">
+                Lezioni online, materiali esclusivi e supporto 24/7 in chat
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#prova" class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition duration-300">
+                    Prova Gratuita 1 Mese
+                </a>
+                <a href="#corso" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-blue-600 transition duration-300">
+                    Scopri di più
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-16" id="corso">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Perché scegliere EnglishPro?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+                    <i class="fas fa-video text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Lezioni Online</h3>
+                    <p class="text-gray-600">Accesso illimitato alle lezioni online con i migliori docenti madrelingua</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+                    <i class="fas fa-comments text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Chat Support</h3>
+                    <p class="text-gray-600">Supporto immediato dai nostri insegnanti madrelingua via chat</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+                    <i class="fas fa-file-download text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Materiali Esclusivi</h3>
+                    <p class="text-gray-600">Guide e materiali didattici scaricabili per studiare offline</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="px-6 py-8">
+                    <h3 class="text-center text-3xl font-bold text-gray-900 mb-2">Abbonamento Mensile</h3>
+                    <div class="text-center mb-6">
+                        <span class="text-5xl font-bold">€14.90</span>
+                        <span class="text-gray-600">/mese</span>
+                    </div>
+                    <ul class="mb-6">
+                        <li class="flex items-center mb-3">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Accesso illimitato alle lezioni
+                        </li>
+                        <li class="flex items-center mb-3">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Chat con insegnanti madrelingua
+                        </li>
+                        <li class="flex items-center mb-3">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Materiali didattici scaricabili
+                        </li>
+                        <li class="flex items-center mb-3">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Certificato di completamento
+                        </li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white rounded-full px-4 py-2 hover:bg-blue-700 transition duration-300">
+                        Inizia Ora
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16" id="testimonials">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Cosa dicono i nostri studenti</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="/api/placeholder/50/50" alt="Student" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Marco Rossi</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Grazie a EnglishPro ho migliorato il mio inglese in modo incredibile. Gli insegnanti sono fantastici!"</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="/api/placeholder/50/50" alt="Student" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Laura Bianchi</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Il supporto in chat è utilissimo. Posso chiarire i miei dubbi in qualsiasi momento."</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="/api/placeholder/50/50" alt="Student" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Giuseppe Verdi</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Materiali di alta qualità e lezioni sempre interessanti. Assolutamente consigliato!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="py-16 bg-gray-100" id="blog">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Dal nostro Blog</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Blog post" class="w-full">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Come migliorare la pronuncia</h3>
+                        <p class="text-gray-600 mb-4">Consigli pratici per perfezionare la tua pronuncia inglese...</p>
+                        <a href="#" class="text-blue-600 hover:underline">Leggi di più</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Blog post" class="w-full">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Business English Tips</h3>
+                        <p class="text-gray-600 mb-4">Le frasi più utili per il tuo inglese professionale...</p>
+                        <a href="#" class="text-blue-600 hover:underline">Leggi di più</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/400/200" alt="Blog post" class="w-full">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Preparazione IELTS</h3>
+                        <p class="text-gray-600 mb-4">Guida completa per superare l'esame IELTS...</p>
+                        <a href="#" class="text-blue-600 hover:underline">Leggi di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-16" id="contatti">
+        <div class="container mx-auto px-6">
+            <div class="max-w-lg mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">Contattaci</h2>
+                <form class="bg-white rounded-lg shadow-lg p-6">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                            Nome
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="surname">
+                            Cognome
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="surname" type="text" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                            Email
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" required>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" type="submit">
+                            Invia
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">EnglishPro</h4>
+                    <p class="text-gray-400">Il tuo partner per l'apprendimento dell'inglese online</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Link Utili</h4>
+                    <ul class="text-gray-400">
+                        <li class="mb-2"><a href="#" class="hover:text-white">Chi Siamo</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white">FAQ</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white">Termini e Condizioni</a></li>
+                    </ul>
